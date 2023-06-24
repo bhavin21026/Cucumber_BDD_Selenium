@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>ShaipCloudBDD</td>
+                          <td>1</td>
+                        <td>01 Sep 2021, 12:52</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">shaip_stepdefinations.HooksStepDefinations.tearDown()</td>
+                <td>13</td>
+                <td class="duration" data-value="8760000000">8s 760ms</td>
+                <td class="duration" data-value="673846153">673ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.add_new_customer_by_filling_or_mandatory_fileds()</td>
+                <td>1</td>
+                <td class="duration" data-value="7141000000">7s 141ms</td>
+                <td class="duration" data-value="7141000000">7s 141ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.click_on_add_customer_button_from_customer_listing_screen()</td>
+                <td>1</td>
+                <td class="duration" data-value="1980000000">1s 980ms</td>
+                <td class="duration" data-value="1980000000">1s 980ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.click_on_add_customer_user_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="1118000000">1s 118ms</td>
+                <td class="duration" data-value="1118000000">1s 118ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.click_on_add_new_user_button()</td>
+                <td>1</td>
+                <td class="duration" data-value="4320000000">4s 320ms</td>
+                <td class="duration" data-value="4320000000">4s 320ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.select_something_as_a_submenu(java.lang.String)</td>
+                <td>5</td>
+                <td class="duration" data-value="5550000000">5s 550ms</td>
+                <td class="duration" data-value="1110000000">1s 110ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.setupMethod()</td>
+                <td>13</td>
+                <td class="duration" data-value="99540000000">1m 39s 540ms</td>
+                <td class="duration" data-value="7656923076">7s 656ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.start_searching_by_something_from_global_search_menu_and_verify_searched_results(java.lang.String)</td>
+                <td>2</td>
+                <td class="duration" data-value="13753000000">13s 753ms</td>
+                <td class="duration" data-value="6876500000">6s 876ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.user_clicks_on_something_menu_from_landing_page(java.lang.String)</td>
+                <td>5</td>
+                <td class="duration" data-value="10624000000">10s 624ms</td>
+                <td class="duration" data-value="2124800000">2s 124ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.user_clicks_on_users_tab()</td>
+                <td>1</td>
+                <td class="duration" data-value="121000000">121ms</td>
+                <td class="duration" data-value="121000000">121ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.user_enters_invalid_invalid_and_hit_enter_button_and_user_error_message_should_get_display(java.lang.String,java.lang.String)</td>
+                <td>2</td>
+                <td class="duration" data-value="6005000000">6s 005ms</td>
+                <td class="duration" data-value="3002500000">3s 002ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.user_enters_valid_something_valid_something_and_hit_enter_button(java.lang.String,java.lang.String)</td>
+                <td>5</td>
+                <td class="duration" data-value="15469000000">15s 469ms</td>
+                <td class="duration" data-value="3093800000">3s 093ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.user_enters_valid_valid_and_hit_enter_button(java.lang.String,java.lang.String)</td>
+                <td>6</td>
+                <td class="duration" data-value="19653000000">19s 653ms</td>
+                <td class="duration" data-value="3275500000">3s 275ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()</td>
+                <td>11</td>
+                <td class="duration" data-value="13238000000">13s 238ms</td>
+                <td class="duration" data-value="1203454545">1s 203ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.verify_add_new_customer_user_functionality_by_filling_all_mendatory_details()</td>
+                <td>1</td>
+                <td class="duration" data-value="7171000000">7s 171ms</td>
+                <td class="duration" data-value="7171000000">7s 171ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.verify_customer_created_successfully_with_all_given_values()</td>
+                <td>1</td>
+                <td class="duration" data-value="5940000000">5s 940ms</td>
+                <td class="duration" data-value="5940000000">5s 940ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.verify_edit_and_verify_newly_created_customer_details_from_customer_details_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="22537000000">22s 537ms</td>
+                <td class="duration" data-value="22537000000">22s 537ms</td>
+                <td class="failed">0.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.verify_edit_and_verify_newly_created_customer_details_from_listing_page()</td>
+                <td>1</td>
+                <td class="duration" data-value="30538000000">30s 538ms</td>
+                <td class="duration" data-value="30538000000">30s 538ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.verify_menu_permission_of_user_based_on_logged_in(java.lang.String)</td>
+                <td>3</td>
+                <td class="duration" data-value="6151000000">6s 151ms</td>
+                <td class="duration" data-value="2050333333">2s 050ms</td>
+                <td class="failed">66.67%</td>
+              </tr>
+                          <tr>
+                <td class="location">shaip_stepdefinations.steapdefinations.verify_user_created_successfully()</td>
+                <td>1</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="duration" data-value="0">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>20</td>
+              <td>75</td>
+              <td class="duration">4m 39s 609ms</td>
+              <td class="duration">3s 728ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

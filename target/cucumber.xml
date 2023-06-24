@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="13" time="279.918">
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify user is able to login successfully in enterprise portal with valid username and password" time="14.131">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid parth.parikh@shaip.com, valid P@ssw0rd@123 and hit enter button.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify user is able to login successfully in enterprise portal with valid username and password 2" time="12.653">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid c.orac@yopmail.com, valid CyOFA@0274 and hit enter button.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify user is able to login successfully in enterprise portal with valid username and password 3" time="12.972">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid 6hesham2092m@soantiy.com, valid UFtoB@6176 and hit enter button.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify user is not able to login  in enterprise portal with invalid username and password" time="11.226">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters invalid parth.parikh@sdhaip.com, invalid P@ssw0rd@123 and hit enter button and  user error message should get display.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify user is not able to login  in enterprise portal with invalid username and password 2" time="10.703">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters invalid c.orac@yopmadil.com, invalid CyOFA@0274 and hit enter button and  user error message should get display.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify menu permission based on user login" time="13.346">
+<failure message="The following asserts failed:&#10;&#9;expected [false] but found [true]" type="java.lang.AssertionError"><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid parth.parikh@shaip.com, valid P@ssw0rd@123 and hit enter button.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+Then verify menu permission of user based on logged in parth.parikh@shaip.com.failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	expected [false] but found [true]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at shaip_pageobjects.LandingPage_EP.verifyMenuPermissions(LandingPage_EP.java:86)
+	at shaip_stepdefinations.steapdefinations.verify_menu_permission_of_user_based_on_logged_in(steapdefinations.java:77)
+	at ✽.verify menu permission of user based on logged in parth.parikh@shaip.com(file:///C:/Users/Bhavin%20Sangani/eclipse-workspace/ShaipCloudBDD/src/test/java/shaip_features/File1_Login.feature:35)
+]]></failure>
+</testcase>
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify menu permission based on user login 2" time="15.052">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid c.orac@yopmail.com, valid CyOFA@0274 and hit enter button.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+Then verify menu permission of user based on logged in c.orac@yopmail.com...passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login funcationality of Enterprise Portal" name="verify menu permission based on user login 3" time="15.774">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid 6hesham2092m@soantiy.com, valid UFtoB@6176 and hit enter button.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+Then verify menu permission of user based on logged in 6hesham2092m@soantiy.com.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Customer module functionality" name="Verify as a admin user i should be able to create new customer" time="30.47">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid "parth.parikh@shaip.com", valid "P@ssw0rd@123" and hit enter buttons.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+When User clicks on "Administration" menu from landing page.................passed
+And select "Customers" as a submenu.........................................passed
+And click on Add customer button from customer listing screen...............passed
+And Add new customer by filling or mandatory fileds.........................passed
+Then Verify customer created successfully with all given values.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Customer module functionality" name="Verify as a admin user i should be able to search newly created  customer" time="22.605">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid "parth.parikh@shaip.com", valid "P@ssw0rd@123" and hit enter buttons.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+When User clicks on "Administration" menu from landing page.................passed
+And select "Customers" as a submenu.........................................passed
+And Start searching by "Manoj1" from global search menu and verify searched results.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Customer module functionality" name="Verify as a admin user i should be able to Edit newly created  customer from listing page" time="46.285">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid "parth.parikh@shaip.com", valid "P@ssw0rd@123" and hit enter buttons.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+When User clicks on "Administration" menu from landing page.................passed
+And select "Customers" as a submenu.........................................passed
+Then Verify edit and verify newly created customer details from listing page.passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Customer module functionality" name="Verify as a admin user i should be able to Edit newly created  customer from Details page" time="39.383">
+<failure message="The following asserts failed:&#10;&#9;Name not get updated expected [Steve Smith] but found [Manoj Patel1]" type="java.lang.AssertionError"><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid "parth.parikh@shaip.com", valid "P@ssw0rd@123" and hit enter buttons.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+When User clicks on "Administration" menu from landing page.................passed
+And select "Customers" as a submenu.........................................passed
+Then Verify edit and verify newly created customer details from customer details page.failed
+
+StackTrace:
+java.lang.AssertionError: The following asserts failed:
+	Name not get updated expected [Steve Smith] but found [Manoj Patel1]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at shaip_pageobjects.CustomersPage_EP.verifyUpdatedCustomerInformationFromDetail(CustomersPage_EP.java:337)
+	at shaip_pageobjects.CustomersPage_EP.editAndVerifyCustomerFromDetailsPage(CustomersPage_EP.java:304)
+	at shaip_stepdefinations.steapdefinations.verify_edit_and_verify_newly_created_customer_details_from_customer_details_page(steapdefinations.java:141)
+	at ✽.Verify edit and verify newly created customer details from customer details page(file:///C:/Users/Bhavin%20Sangani/eclipse-workspace/ShaipCloudBDD/src/test/java/shaip_features/File2_verifyCustomerFunctionality.feature:38)
+]]></failure>
+</testcase>
+<testcase classname="Check Custome user  functionality" name="Verify as a admin user i should be able to create new customer user from users tab of customer" time="35.094">
+<system-out><![CDATA[Given User must be on EP login page.........................................passed
+When user enters valid "parth.parikh@shaip.com", valid "P@ssw0rd@123" and hit enter buttons.passed
+Then user login is success and user navigated to Landing page and verify copyright text.passed
+When User clicks on "Administration" menu from landing page.................passed
+And select "Customers" as a submenu.........................................passed
+And Start searching by "Manoj Patel1" from global search menu and verify searched results.passed
+When user clicks on Users tab...............................................passed
+And click on Add Customer User button.......................................passed
+And clicks on Add New User button...........................................passed
+Then verify add new customer user functionality by filling all mendatory details.passed
+Then verify user created successfully.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ShaipSuite2" parallel="tests" thread-count="1">
+
+	<listeners>
+		<listener
+			class-name="shaip_utilitiescomponents.ListenersImplementation" />
+		<!-- <listener class-name="reusableComponents.TestRetryAnalyzerListener" 
+			/> -->
+	</listeners>
+
+	<test name="ShaipAutomation1">
+		<classes>
+			<class name="shaip_cucumberoptions.runCucumberTest_TestNG" />
+		</classes>
+	</test>
+
+</suite> <!-- ShaipSuite -->

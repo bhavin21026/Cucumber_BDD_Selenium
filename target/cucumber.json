@@ -1,0 +1,1408 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8615000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:15:47.687Z",
+        "line": 12,
+        "name": "verify user is able to login successfully in enterprise portal with valid username and password",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-user-is-able-to-login-successfully-in-enterprise-portal-with-valid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 692000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3639000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid parth.parikh@shaip.com, valid P@ssw0rd@123 and hit enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 18
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 48
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_valid_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1132000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7327000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:16:01.835Z",
+        "line": 13,
+        "name": "verify user is able to login successfully in enterprise portal with valid username and password",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-user-is-able-to-login-successfully-in-enterprise-portal-with-valid-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3513000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid c.orac@yopmail.com, valid CyOFA@0274 and hit enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c.orac@yopmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "CyOFA@0274",
+                  "offset": 44
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_valid_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1150000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7878000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:16:14.494Z",
+        "line": 14,
+        "name": "verify user is able to login successfully in enterprise portal with valid username and password",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-user-is-able-to-login-successfully-in-enterprise-portal-with-valid-username-and-password;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 652000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3027000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters valid 6hesham2092m@soantiy.com, valid UFtoB@6176 and hit enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6hesham2092m@soantiy.com",
+                  "offset": 18
+                },
+                {
+                  "val": "UFtoB@6176",
+                  "offset": 50
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_valid_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1413000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7529000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:16:27.471Z",
+        "line": 25,
+        "name": "verify user is not able to login  in enterprise portal with invalid username and password",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-user-is-not-able-to-login--in-enterprise-portal-with-invalid-username-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 669000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3026000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters invalid parth.parikh@sdhaip.com, invalid P@ssw0rd@123 and hit enter button and  user error message should get display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@sdhaip.com",
+                  "offset": 20
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 53
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_invalid_invalid_and_hit_enter_button_and_user_error_message_should_get_display(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7055000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:16:38.701Z",
+        "line": 26,
+        "name": "verify user is not able to login  in enterprise portal with invalid username and password",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-user-is-not-able-to-login--in-enterprise-portal-with-invalid-username-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 666000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2979000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enters invalid c.orac@yopmadil.com, invalid CyOFA@0274 and hit enter button and  user error message should get display",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c.orac@yopmadil.com",
+                  "offset": 20
+                },
+                {
+                  "val": "CyOFA@0274",
+                  "offset": 49
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_invalid_invalid_and_hit_enter_button_and_user_error_message_should_get_display(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7961000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:16:49.410Z",
+        "line": 39,
+        "name": "verify menu permission based on user login",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-menu-permission-based-on-user-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 653000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3531000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters valid parth.parikh@shaip.com, valid P@ssw0rd@123 and hit enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 18
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 48
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_valid_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1123000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: The following asserts failed:\n\texpected [false] but found [true]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)\r\n\tat shaip_pageobjects.LandingPage_EP.verifyMenuPermissions(LandingPage_EP.java:86)\r\n\tat shaip_stepdefinations.steapdefinations.verify_menu_permission_of_user_based_on_logged_in(steapdefinations.java:77)\r\n\tat ✽.verify menu permission of user based on logged in parth.parikh@shaip.com(file:///C:/Users/Bhavin%20Sangani/eclipse-workspace/ShaipCloudBDD/src/test/java/shaip_features/File1_Login.feature:35)\r\n",
+              "duration": 72000000,
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "verify menu permission of user based on logged in parth.parikh@shaip.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 50
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.verify_menu_permission_of_user_based_on_logged_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7210000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:17:02.767Z",
+        "line": 40,
+        "name": "verify menu permission based on user login",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-menu-permission-based-on-user-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 683000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2965000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters valid c.orac@yopmail.com, valid CyOFA@0274 and hit enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c.orac@yopmail.com",
+                  "offset": 18
+                },
+                {
+                  "val": "CyOFA@0274",
+                  "offset": 44
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_valid_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1147000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3047000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verify menu permission of user based on logged in c.orac@yopmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "c.orac@yopmail.com",
+                  "offset": 50
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.verify_menu_permission_of_user_based_on_logged_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7745000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:17:17.826Z",
+        "line": 41,
+        "name": "verify menu permission based on user login",
+        "description": "",
+        "id": "check-login-funcationality-of-enterprise-portal;verify-menu-permission-based-on-user-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 671000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2978000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user enters valid 6hesham2092m@soantiy.com, valid UFtoB@6176 and hit enter button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6hesham2092m@soantiy.com",
+                  "offset": 18
+                },
+                {
+                  "val": "UFtoB@6176",
+                  "offset": 50
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_valid_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1347000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3032000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "verify menu permission of user based on logged in 6hesham2092m@soantiy.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6hesham2092m@soantiy.com",
+                  "offset": 50
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.verify_menu_permission_of_user_based_on_logged_in(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check login funcationality of Enterprise Portal",
+    "description": "",
+    "id": "check-login-funcationality-of-enterprise-portal",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/shaip_features/File1_Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7380000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3001000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"parth.parikh@shaip.com\", valid \"P@ssw0rd@123\" and hit enter buttons",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 19
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 51
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_something_valid_something_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1125000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:17:33.611Z",
+        "line": 10,
+        "name": "Verify as a admin user i should be able to create new customer",
+        "description": "",
+        "id": "check-customer-module-functionality;verify-as-a-admin-user-i-should-be-able-to-create-new-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 686000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2109000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on \"Administration\" menu from landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Administration",
+                  "offset": 16
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_clicks_on_something_menu_from_landing_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1104000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "select \"Customers\" as a submenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customers",
+                  "offset": 8
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.select_something_as_a_submenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1980000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click on Add customer button from customer listing screen",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.click_on_add_customer_button_from_customer_listing_screen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7141000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Add new customer by filling or mandatory fileds",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.add_new_customer_by_filling_or_mandatory_fileds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5940000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify customer created successfully with all given values",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.verify_customer_created_successfully_with_all_given_values()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7811000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2981000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"parth.parikh@shaip.com\", valid \"P@ssw0rd@123\" and hit enter buttons",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 19
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 51
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_something_valid_something_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1280000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:18:04.085Z",
+        "line": 20,
+        "name": "Verify as a admin user i should be able to search newly created  customer",
+        "description": "",
+        "id": "check-customer-module-functionality;verify-as-a-admin-user-i-should-be-able-to-search-newly-created--customer",
+        "after": [
+          {
+            "result": {
+              "duration": 660000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2123000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on \"Administration\" menu from landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Administration",
+                  "offset": 16
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_clicks_on_something_menu_from_landing_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1117000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "select \"Customers\" as a submenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customers",
+                  "offset": 8
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.select_something_as_a_submenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6632000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Start searching by \"Manoj1\" from global search menu and verify searched results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manoj1",
+                  "offset": 20
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.start_searching_by_something_from_global_search_menu_and_verify_searched_results(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7694000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3004000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"parth.parikh@shaip.com\", valid \"P@ssw0rd@123\" and hit enter buttons",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 19
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 51
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_something_valid_something_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1126000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:18:26.695Z",
+        "line": 27,
+        "name": "Verify as a admin user i should be able to Edit newly created  customer from listing page",
+        "description": "",
+        "id": "check-customer-module-functionality;verify-as-a-admin-user-i-should-be-able-to-edit-newly-created--customer-from-listing-page",
+        "after": [
+          {
+            "result": {
+              "duration": 684000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2120000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User clicks on \"Administration\" menu from landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Administration",
+                  "offset": 16
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_clicks_on_something_menu_from_landing_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1117000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "select \"Customers\" as a submenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customers",
+                  "offset": 8
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.select_something_as_a_submenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30538000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Verify edit and verify newly created customer details from listing page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.verify_edit_and_verify_newly_created_customer_details_from_listing_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8245000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3509000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters valid \"parth.parikh@shaip.com\", valid \"P@ssw0rd@123\" and hit enter buttons",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 19
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 51
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_something_valid_something_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1134000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:19:12.985Z",
+        "line": 35,
+        "name": "Verify as a admin user i should be able to Edit newly created  customer from Details page",
+        "description": "",
+        "id": "check-customer-module-functionality;verify-as-a-admin-user-i-should-be-able-to-edit-newly-created--customer-from-details-page",
+        "after": [
+          {
+            "result": {
+              "duration": 707000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2146000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User clicks on \"Administration\" menu from landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Administration",
+                  "offset": 16
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_clicks_on_something_menu_from_landing_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1103000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "select \"Customers\" as a submenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customers",
+                  "offset": 8
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.select_something_as_a_submenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: The following asserts failed:\n\tName not get updated expected [Steve Smith] but found [Manoj Patel1]\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)\r\n\tat org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)\r\n\tat shaip_pageobjects.CustomersPage_EP.verifyUpdatedCustomerInformationFromDetail(CustomersPage_EP.java:337)\r\n\tat shaip_pageobjects.CustomersPage_EP.editAndVerifyCustomerFromDetailsPage(CustomersPage_EP.java:304)\r\n\tat shaip_stepdefinations.steapdefinations.verify_edit_and_verify_newly_created_customer_details_from_customer_details_page(steapdefinations.java:141)\r\n\tat ✽.Verify edit and verify newly created customer details from customer details page(file:///C:/Users/Bhavin%20Sangani/eclipse-workspace/ShaipCloudBDD/src/test/java/shaip_features/File2_verifyCustomerFunctionality.feature:38)\r\n",
+              "duration": 22537000000,
+              "status": "failed"
+            },
+            "line": 38,
+            "name": "Verify edit and verify newly created customer details from customer details page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.verify_edit_and_verify_newly_created_customer_details_from_customer_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check Customer module functionality",
+    "description": "",
+    "id": "check-customer-module-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/shaip_features/File2_verifyCustomerFunctionality.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "setup method must be invoked",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7090000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User must be on EP login page",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.setupMethod()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2974000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid \"parth.parikh@shaip.com\", valid \"P@ssw0rd@123\" and hit enter buttons",
+            "match": {
+              "arguments": [
+                {
+                  "val": "parth.parikh@shaip.com",
+                  "offset": 19
+                },
+                {
+                  "val": "P@ssw0rd@123",
+                  "offset": 51
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_enters_valid_something_valid_something_and_hit_enter_button(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1261000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user login is success and user navigated to Landing page and verify copyright text",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_login_is_success_and_user_navigated_to_landing_page_and_verify_copyright_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2126000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on \"Administration\" menu from landing page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Administration",
+                  "offset": 16
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.user_clicks_on_something_menu_from_landing_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1109000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select \"Customers\" as a submenu",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customers",
+                  "offset": 8
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.select_something_as_a_submenu(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7121000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Start searching by \"Manoj Patel1\" from global search menu and verify searched results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Manoj Patel1",
+                  "offset": 20
+                }
+              ],
+              "location": "shaip_stepdefinations.steapdefinations.start_searching_by_something_from_global_search_menu_and_verify_searched_results(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-01T07:19:52.373Z",
+        "line": 14,
+        "name": "Verify as a admin user i should be able to create new customer user from users tab of customer",
+        "description": "",
+        "id": "check-custome-user--functionality;verify-as-a-admin-user-i-should-be-able-to-create-new-customer-user-from-users-tab-of-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 677000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "shaip_stepdefinations.HooksStepDefinations.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 121000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user clicks on Users tab",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.user_clicks_on_users_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1118000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on Add Customer User button",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.click_on_add_customer_user_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4320000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "clicks on Add New User button",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.click_on_add_new_user_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7171000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "verify add new customer user functionality by filling all mendatory details",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.verify_add_new_customer_user_functionality_by_filling_all_mendatory_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify user created successfully",
+            "match": {
+              "location": "shaip_stepdefinations.steapdefinations.verify_user_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@one"
+          }
+        ]
+      }
+    ],
+    "name": "Check Custome user  functionality",
+    "description": "",
+    "id": "check-custome-user--functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/shaip_features/File3_verifyAddNewCustomerUser.feature",
+    "tags": []
+  }
+]

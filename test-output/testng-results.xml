@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26264" started-at="2021-08-24T18:23:22 IST" finished-at="2021-08-24T18:23:48 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26264" started-at="2021-08-24T18:23:22 IST" finished-at="2021-08-24T18:23:48 IST">
+      <class name="shaip_testcases.VerifyLoginWithDifferentRoles">
+        <test-method status="PASS" signature="LaunchShaipCloud()[pri:0, instance:shaip_testcases.VerifyLoginWithDifferentRoles@17f9d882]" name="LaunchShaipCloud" is-config="true" duration-ms="8602" started-at="2021-08-24T18:23:22 IST" finished-at="2021-08-24T18:23:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchShaipCloud -->
+        <test-method status="PASS" signature="verifyLoginWithDifferentUsers(java.lang.Object)[pri:0, instance:shaip_testcases.VerifyLoginWithDifferentRoles@17f9d882]" name="verifyLoginWithDifferentUsers" duration-ms="4792" started-at="2021-08-24T18:23:30 IST" data-provider="LoginCreationData" finished-at="2021-08-24T18:23:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=parth.parikh@shaip.com, Sr No=1, Password=P@ssw0rd@123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithDifferentUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:shaip_testcases.VerifyLoginWithDifferentRoles@17f9d882]" name="tearDown" is-config="true" duration-ms="683" started-at="2021-08-24T18:23:35 IST" finished-at="2021-08-24T18:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="LaunchShaipCloud()[pri:0, instance:shaip_testcases.VerifyLoginWithDifferentRoles@17f9d882]" name="LaunchShaipCloud" is-config="true" duration-ms="7301" started-at="2021-08-24T18:23:36 IST" finished-at="2021-08-24T18:23:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchShaipCloud -->
+        <test-method status="PASS" signature="verifyLoginWithDifferentUsers(java.lang.Object)[pri:0, instance:shaip_testcases.VerifyLoginWithDifferentRoles@17f9d882]" name="verifyLoginWithDifferentUsers" duration-ms="4070" started-at="2021-08-24T18:23:43 IST" data-provider="LoginCreationData" finished-at="2021-08-24T18:23:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=c.orac@yopmail.com, Sr No=2, Password=CyOFA@0274}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithDifferentUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:shaip_testcases.VerifyLoginWithDifferentRoles@17f9d882]" name="tearDown" is-config="true" duration-ms="658" started-at="2021-08-24T18:23:47 IST" finished-at="2021-08-24T18:23:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- shaip_testcases.VerifyLoginWithDifferentRoles -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
